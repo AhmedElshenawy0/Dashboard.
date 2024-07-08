@@ -247,7 +247,7 @@ const deleteUser = () => {
   }
 
   .form {
-    background-color: white;
+    background-color: $main-color;
     padding: 20px;
     border-radius: 10px;
     width: 500px;
@@ -286,13 +286,13 @@ const deleteUser = () => {
   }
 }
 .dark-mode .info {
-  background-color: #091a28;
-  color: white;
-  border: 1px solid white;
+  background-color: $dark-color;
+  color: $main-color;
+  border: 1px solid $main-color;
 }
 .dark-mode .form {
-  background-color: #091a28;
-  color: white;
-  border: 1px solid white;
+  background-color: $dark-color;
+  color: $main-color;
+  border: 1px solid $main-color;
 }
 </style>

@@ -173,6 +173,7 @@ onError((res) => {
 </script>
 
 <style lang="scss" scoped>
+
 .form {
   width: 100%;
   display: flex;

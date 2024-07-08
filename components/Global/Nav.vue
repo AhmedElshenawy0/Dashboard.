@@ -120,20 +120,20 @@ const openSideBare = ref<boolean>(false);
 }
 
 .dark-mode .navw {
-  background-color: #091a28;
+  background-color: $dark-color;
   color: #ebf4f1;
   border: 1px solid white;
   border-radius:10px;
 }
 .dark-mode a {
-    color: #ffffff;
+    color: $main-color;
     border: 1px solid rgb(175, 173, 173);
   }
   .dark-mode .my-icon {
-    color: #ffffff;
+    color: $main-color;
   }
   .dark-mode h3 {
-    color: #ffffff;
+    color: $main-color;
   }
   
 </style>

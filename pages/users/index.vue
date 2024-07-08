@@ -244,31 +244,31 @@ const deleteUser = (id) => {
   }
 }
 .dark-mode .users {
-  color: #ffffff;
-  background-color: #091a28;
+  color: $main-color;
+  background-color: $dark-color;
 }
 .dark-mode th {
-  color: #ffffff;
-  background-color: #091a28;
+  color: $main-color;
+  background-color: $dark-color;
 }
 .dark-mode td {
-  color: #ffffff;
-  background-color: #091a28;
+  color: $main-color;
+  background-color: $dark-color;
 }
 .dark-mode tbody {
-  color: #ffffff;
-  background-color: #091a28;
+  color: $main-color;
+  background-color: $dark-color;
 }
 .dark-mode tr {
-  background-color: #091a28;
+  background-color: $dark-color;
 }
 .dark-mode p {
-  color: #ffffff;
+  color: $main-color;
 }
 .dark-mode thead tr {
-  background-color: #091a28;
+  background-color: $dark-color;
 }
 .dark-mode tbody tr {
-  border-color: white;
+  border-color: $main-color;
 }
 </style>

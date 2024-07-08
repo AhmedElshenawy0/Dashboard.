@@ -133,7 +133,7 @@ const setColorMode = (newTheme: string) => {
 }
 
 .dark-mode .top-side {
-  background-color: #091a28;
+  background-color: $dark-color;
   color: #ebf4f1;
   border: 1px solid white;
 }

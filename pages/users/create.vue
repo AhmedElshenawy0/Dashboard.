@@ -175,6 +175,8 @@ onError((res) => {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/style/main.scss";
+
 .form {
   width: 100%;
   display: flex;
@@ -182,7 +184,7 @@ onError((res) => {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  background-color: white;
+  background-color: $main-color;
   height: 100vh;
   h3 {
     font-size: 2.5rem;
@@ -212,9 +214,9 @@ onError((res) => {
 }
 
 .dark-mode .form {
-  background-color: #091a28;
-  color: white;
-  border: 1px solid white;
+  background-color: $dark-color;
+  color: $main-color;
+  border: 1px solid $main-color;
   border-radius: 10px;
 }
 </style>
