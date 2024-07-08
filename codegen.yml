@@ -1,0 +1,6 @@
+schema: https://api.escuelajs.co/graphql # point of GraphQL server
+generates:
+  src/generated/graphql.tsx: # Where the generated files will go
+    plugins:
+      - typescript # For base TypeScript types
+      - typescript-operations # For operation types (query/mutation/subscription)
